@@ -1,0 +1,222 @@
+/* Reset de estilos */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-image: url('matrix\fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+/* Estilos de encabezado y navegación */
+header {
+	background-color: #141414;
+	color: #fff;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+nav li {
+	margin: 0 10px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	transition: all 0.2s ease;
+}
+nav a:hover {
+	color: #e50914;
+}
+
+/* Estilos del formulario de búsqueda */
+form {
+	display: flex;
+	align-items: center;
+}
+form input[type="text"] {
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1em;
+}
+form button[type="submit"] {
+	background-color: #e50914;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1em;
+	margin-left: 10px;
+	cursor: pointer;
+}
+form button[type="submit"]:hover {
+	background-color: #ca0810;
+}
+
+/* Estilos de sección destacada */
+.featured {
+	margin-top: 80px;
+	padding: 20px;
+}
+.featured h2 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.featured-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 20px;
+}
+
+/* Estilos de categorías */
+.categories {
+	padding: 20px;
+}
+.categories h2 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.categories-grid {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.categories-grid li {
+	margin: 0 10px 10px 0;
+}
+.categories-grid a {
+	color: #141414;
+	background-color: #e6e6e6;
+	padding: 10px 20px;
+	border-radius: 20px;
+	font-size: 1.2em;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.categories-grid a:hover {
+	background-color: #cacaca;
+}
+
+/* Estilos de sección de películas */
+.movies {
+	padding: 20px;
+}
+.movies h2 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.movies-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 20px;
+}
+
+/* Estilos de sección de series */
+.series {
+	padding: 20px;
+}
+.series h2 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.series-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 20px;
+}
+
+/* Estilos de pie de página */
+footer {
+	background-color: #141414;
+	color: #fff;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.footer-links {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-links ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+.footer-links li {
+	margin: 0 10px;
+}
+.footer-links a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	transition: all 0.2s ease;
+}
+.footer-links a:hover {
+	color: #e50914;
+}
+
+/* Estilos de redes sociales en el pie de página */
+.social {
+	display: flex;
+	align-items: center;
+}
+.social li {
+	margin: 0 10px;
+}
+.social a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	transition: all 0.2s ease;
+}
+.social a:hover {
+	color: #e50914;
+}
+
+/* Estilos generales */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, sans-serif;
+}
+p {
+	font-size: 1.1em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+a {
+	transition: all 0.2s ease;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+img{
+    width: 180px;
+    height: 250px;
+
+}

@@ -1,0 +1,15 @@
+.jumbotron {
+    background-image: url('https://via.placeholder.com/1920x1080.png?text=Mini+Netflix');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
